@@ -1,0 +1,62 @@
+.form-main {
+    background-color: black;
+    color: #ffff;
+    padding: 20px 10px;
+    min-height: 100vh;
+}
+.form-main .row{
+    margin-bottom: 50px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input, textarea {
+    padding: 10px 8px;
+    border-radius: 8px;
+    border: none;
+    border: 2px solid #fff;
+    outline: none;
+    background: transparent;
+     color: #ffff;
+     font-weight: 500;
+     font-size: 1.2rem;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    background: #ffff !important;
+    color: #000 !important;
+    border: none;
+    padding: 8px 6px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+form button:hover{
+    background-color: #eee;
+    color: #000;
+}
+.card-container{
+    background-color: #c6c5c5;
+    border-radius: 8px;
+    padding: 20px 10px;
+}
+.card-container h2{
+    font-size: 3.2rem;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
