@@ -57,14 +57,7 @@ function App() {
             <h2 className='text-center'>Your Cards</h2>
             <div className="cards">
               {task.map(function (item, index) {
-                return <Card
-                  key={index}
-                  title={item.title}
-                  detail={item.detail}
-                  deleteTask={deleteTask}
-                  index={index}
-                />
-
+                return <Card key={index} title={item.title} detail={item.detail} deleteTask={deleteTask}  index={index}/>
               })}
             </div>
           </div>
