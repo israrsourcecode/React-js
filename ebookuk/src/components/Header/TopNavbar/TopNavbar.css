@@ -1,0 +1,21 @@
+.topbar {
+    background: var(--primary);
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding: 10px 80px;
+}
+
+.icon-box {
+    color: #fff;
+}
+
+.icon-box i {
+    margin-right: 4px;
+}
+
+.icon-box a {
+    color: #fff;
+    text-decoration: none;
+
+}

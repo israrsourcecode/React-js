@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 90%; */
+    /* margin: 0 auto; */
+    padding: 10px 80px;
+    background: #fff;
+
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 40px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: var(--font-400);
+    color: #3F3D52;
+    font-size: 1rem;
+}
